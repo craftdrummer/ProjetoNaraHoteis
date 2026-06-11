@@ -92,14 +92,15 @@ PROJETO NARA HOTEIS/
 │   │   └── Funcionarios auditado.csv
 │        
 ├── notebook/
-│   └── narahoteis_analise.ipynb # Pré-processamento → Estatística → Painel
-│
+│   └── 01.narahoteis_auditoria.ipynb # Pré-processamento → Estatística → Painel
+│   └── 02.narahoteis_estatisticas.ipynb # Pré-processamento → Estatística → Painel
+    └── nara_hoteis_matplotlib_versao4.ipynb # Pré-processamento → Estatística → Painel
 ├── sql/
-│   ├── criacao_banco.sql        # DDL — criação do banco narahoteis_db
-│   └── consultas.sql            # DQL — consultas com JOIN
+│   ├── narahotel-02-script-geracao-do-BancoDeDados.sql        # DDL — criação do banco narahoteis_db
+│   └── consultas.sql                                          # DQL — consultas com JOIN
 │
 ├── powerbi/
-│   └── narahoteis_painel.pbix   # Painel gerencial com comparativos temporais
+│   └── Nara Hotéis.pbix   # Painel gerencial com comparativos temporais
 │
 └── README.md
 ```
@@ -118,7 +119,7 @@ Resposta a perguntas de negócio reais da diretoria — distribuição de diári
 Painel com 4 quadrantes (2×2) com gráficos que respondem perguntas de negócio da rede — livre escolha do time sobre o que visualizar e como justificar.
 
 ### 4️⃣ Banco de Dados — MySQL
-Criação do banco `narahoteis_db` com 6 tabelas relacionadas via chave estrangeira. Importação das bases tratadas e elaboração de consultas com JOIN.
+Criação do banco `narahotel-02-script-geracao-do-BancoDeDados` com 6 tabelas relacionadas via chave estrangeira. Importação das bases tratadas e elaboração de consultas com JOIN.
 
 ### 5️⃣ Painel Gerencial — Power BI
 Painel conectado aos CSVs tratados com filtro por região, indicadores de performance e comparativos temporais usando `PREVIOUSMONTH` e `SAMEPERIODLASTYEAR`.
