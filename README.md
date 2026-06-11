@@ -75,7 +75,7 @@ A **NaraHoteis** é uma rede hoteleira com **12 unidades distribuídas em 4 regi
 PROJETO NARA HOTEIS/
 │
 ├── Nara Oficial/
-│   ├── Bruto/                  # CSVs originais (com inconsistências)
+│   ├── Bruto/                       # CSVs originais (com inconsistências)
 │   │   ├── reservas.csv
 │   │   ├── unidades.csv
 │   │   ├── tipos_quarto.csv
@@ -83,7 +83,7 @@ PROJETO NARA HOTEIS/
 │   │   ├── canais_venda.csv
 │   │   └── funcionarios.csv
 │   │
-│   └── Limpos/                # CSVs limpos exportados após tratamento
+│   └── Limpos/                      # CSVs limpos exportados após tratamento
         ├── Reservas auditado.csv
 │   │   ├── Unidades auditado.csv
 │   │   ├── Tipos de Quarto auditado.csv
@@ -92,15 +92,14 @@ PROJETO NARA HOTEIS/
 │   │   └── Funcionarios auditado.csv
 │        
 ├── notebook/
-│   └── 01.narahoteis_auditoria.ipynb # Pré-processamento → Estatística → Painel
-│   └── 02.narahoteis_estatisticas.ipynb # Pré-processamento → Estatística → Painel
-    └── nara_hoteis_matplotlib_versao4.ipynb # Pré-processamento → Estatística → Painel
+│   └── 01.narahoteis_auditoria.ipynb          # Pré-processamento → Estatística → Painel
+│   └── 02.narahoteis_estatisticas.ipynb       # Pré-processamento → Estatística → Painel
+    └── nara_hoteis_matplotlib_versao4.ipynb   # Pré-processamento → Estatística → Painel
 ├── sql/
-│   ├── narahotel-02-script-geracao-do-BancoDeDados.sql        # DDL — criação do banco narahoteis_db
-│   └── consultas.sql                                          # DQL — consultas com JOIN
+│   ├── narahotel-02-script-geracao-do-BancoDeDados.sql    # DDL — criação do banco narahoteis_db
 │
 ├── powerbi/
-│   └── 04.narahoteis_bi.pbix   # Painel gerencial com comparativos temporais
+│   └── 04.narahoteis_bi.pbix        # Painel gerencial com comparativos temporais
 │
 └── README.md
 ```
