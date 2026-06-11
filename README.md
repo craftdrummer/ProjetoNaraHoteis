@@ -96,7 +96,8 @@ PROJETO NARA HOTEIS/
 │   └── 02.narahoteis_estatisticas.ipynb       # Pré-processamento → Estatística → Painel
     └── nara_hoteis_matplotlib_versao4.ipynb   # Pré-processamento → Estatística → Painel
 ├── sql/
-│   ├── narahotel-02-script-geracao-do-BancoDeDados.sql    # DDL — criação do banco narahoteis_db
+│   ├── narahotel-02-script-geracao-do-BancoDeDados.sql      # DDL — criação do banco narahoteis_db
+│   └── narahotel-01-script-geracao-do-BancoDeDados.sql      # DQL — consultas com JOIN
 │
 ├── powerbi/
 │   └── 04.narahoteis_bi.pbix        # Painel gerencial com comparativos temporais
