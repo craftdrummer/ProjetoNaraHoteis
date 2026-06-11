@@ -94,7 +94,7 @@ PROJETO NARA HOTEIS/
 ├── notebook/
 │   └── 01.narahoteis_auditoria.ipynb          # Pré-processamento → Estatística → Painel
 │   └── 02.narahoteis_estatisticas.ipynb       # Pré-processamento → Estatística → Painel
-    └── nara_hoteis_matplotlib_versao4.ipynb   # Pré-processamento → Estatística → Painel
+    └── 03.narahoteis_matplotlib.ipynb         # Pré-processamento → Estatística → Painel
 ├── sql/
 │   ├── narahotel-02-script-geracao-do-BancoDeDados.sql      # DDL — criação do banco narahoteis_db
 │   └── narahotel-01-script-geracao-do-BancoDeDados.sql      # DQL — consultas com JOIN
