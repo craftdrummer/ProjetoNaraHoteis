@@ -146,6 +146,8 @@ Instituição: **SENAC RJ**
 
 ---
 
+<div align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-BRUNO%20MALHEIROS%20AZEVEDO-red?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bruno-malheiros-azevedo/?isSelfProfile=true)
 
 <div align="center">
