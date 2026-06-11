@@ -100,7 +100,7 @@ PROJETO NARA HOTEIS/
 │   └── consultas.sql                                          # DQL — consultas com JOIN
 │
 ├── powerbi/
-│   └── Nara Hotéis.pbix   # Painel gerencial com comparativos temporais
+│   └── 04.narahoteis_bi.pbix   # Painel gerencial com comparativos temporais
 │
 └── README.md
 ```
