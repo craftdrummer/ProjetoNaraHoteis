@@ -117,11 +117,11 @@ Resposta a perguntas de negócio reais da diretoria — distribuição de diári
 ### 3️⃣ Painel em Python — Matplotlib
 Painel com 4 quadrantes (2×2) com gráficos que respondem perguntas de negócio da rede — livre escolha do time sobre o que visualizar e como justificar.
 
-### 4️⃣ Banco de Dados — MySQL
-Criação do banco `06. narahotel-script-geracao-do-BancoDeDados-Geral` com 6 tabelas relacionadas via chave estrangeira. Importação das bases tratadas e elaboração de consultas com JOIN.
-
-### 5️⃣ Painel Gerencial — Power BI
+### 4️⃣ Painel Gerencial — Power BI
 Painel conectado aos CSVs tratados com filtro por região, indicadores de performance e comparativos temporais usando `PREVIOUSMONTH` e `SAMEPERIODLASTYEAR`.
+
+### 5️⃣ Banco de Dados — MySQL
+Criação do banco `06. narahotel-script-geracao-do-BancoDeDados-Geral` com 6 tabelas relacionadas via chave estrangeira. Importação das bases tratadas e elaboração de consultas com JOIN.
 
 ---
 
