@@ -99,7 +99,7 @@ PROJETO NARA HOTEIS/
 │   └── 04.narahoteis_bi.pbix                                     # Painel gerencial com comparativos temporais
 ├── sql/
 │   ├── 05.narahotel-script-geracao-do-BancoDeDados-Testes.sql    # DQL — consultas com JOIN
-│   └── 06. narahotel-script-geracao-do-BancoDeDados-Geral.sql    # DDL — criação do banco narahoteis_db
+│   └── 06.narahotel-script-geracao-do-BancoDeDados-Geral.sql     # DDL — criação do banco narahoteis_db
 │
 └── README.md
 ```
@@ -121,7 +121,7 @@ Painel com 4 quadrantes (2×2) com gráficos que respondem perguntas de negócio
 Painel conectado aos CSVs tratados com filtro por região, indicadores de performance e comparativos temporais usando `PREVIOUSMONTH` e `SAMEPERIODLASTYEAR`.
 
 ### 5️⃣ Banco de Dados — MySQL
-Criação do banco `06. narahotel-script-geracao-do-BancoDeDados-Geral` com 6 tabelas relacionadas via chave estrangeira. Importação das bases tratadas e elaboração de consultas com JOIN.
+Criação do banco `06.narahotel-script-geracao-do-BancoDeDados-Geral` com 6 tabelas relacionadas via chave estrangeira. Importação das bases tratadas e elaboração de consultas com JOIN.
 
 ---
 
